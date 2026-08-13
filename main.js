@@ -1,5 +1,6 @@
 const btn = document.querySelector('.config-btn');
 btn.addEventListener('click', () => {
-    alert('跳转到页面配置界面');
-    // window.location.href = "config.html"; // 填写配置页面地址
+    alert('即将进入 ALQUIMIA × MONARCA 页面');
+    // 取消注释替换为你的目标页面
+    // window.location.href = "monarca.html";
 })

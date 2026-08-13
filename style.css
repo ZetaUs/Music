@@ -1,32 +1,61 @@
+/* 全局变量统一配色，方便修改主题 */
+:root {
+    --bg-gradient: linear-gradient(140deg, #0f172a, #1e293b);
+    --text-white: #f8fafc;
+    --btn-main: #8b5cf6;
+    --btn-hover: #a78bfa;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Microsoft YaHei", sans-serif;
 }
+
 body {
     min-height: 100vh;
+    background: var(--bg-gradient);
+    font-family: "Microsoft YaHei", system-ui, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 140px;
+}
+
+/* 居中容器 */
+.wrap {
     text-align: center;
-    padding-top: 120px;
-    background-color: #f5f7fa;
 }
+
+/* 页面中上标题 */
 .page-title {
-    font-size: 36px;
-    color: #222;
-    margin-bottom: 60px;
-    font-weight: 600;
+    font-size: 42px;
+    color: var(--text-white);
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 70px;
 }
+
+/* 音乐风格按钮 */
 .config-btn {
-    padding: 16px 42px;
-    font-size: 18px;
-    background: #2563eb;
+    padding: 18px 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: var(--btn-main);
     color: #fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 999px;
     cursor: pointer;
-    transition: all 0.2s ease;
+    box-shadow: 0 8px 24px rgba(139, 92, 246, 0.3);
+    transition: all 0.3s ease;
 }
+
 .config-btn:hover {
-    background: #1d4ed8;
-    transform: translateY(-2px);
+    background: var(--btn-hover);
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 12px 32px rgba(139, 92, 246, 0.45);
+}
+
+.config-btn:active {
+    transform: translateY(0) scale(0.98);
 }
