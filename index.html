@@ -6,6 +6,8 @@
     <title>ALQUIMIA × MONARCA | Montagem</title>
     <link rel="icon" href="https://zztxorg.dpdns.org/ZetaWave.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <!-- 全局禁用右键菜单 -->
+    <script>document.oncontextmenu = ()=>false;</script>
 </head>
 <body>
     <div class="cover-box">
@@ -17,9 +19,9 @@
     <div class="lyric-area">没有歌词哦</div>
 
     <div class="player-wrap">
-        <!-- 恢复浏览器自带播放条 controls -->
+        <!-- 文件后缀改为zflc，编码类型仍为flac -->
         <audio controls id="audioPlayer">
-            <source src="ALQUIMIA × MONARCA.flac" type="audio/flac">
+            <source src="ALQUIMIA × MONARCA.zflc" type="audio/flac">
             你的浏览器不支持音频播放
         
     </div>
