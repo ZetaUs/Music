@@ -12,7 +12,7 @@
   },
   "routes": [
     {
-      "pattern": "music.zztxorg.dpdns.org/*",
+      "pattern": "music.zztxorg.dpdns.org",
       "custom_domain": true
     }
   ]
