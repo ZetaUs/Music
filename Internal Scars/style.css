@@ -6,7 +6,7 @@
 }
 body {
     background: #0a0a0a;
-    color: #d4b888;
+    color: #d44444;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,8 +21,8 @@ body {
     height: 360px;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 0 40px #805c3060;
-    border: 2px solid #70502c;
+    box-shadow: 0 0 40px #80202060;
+    border: 2px solid #702020;
 }
 .cover-box img {
     width: 100%;
@@ -34,7 +34,7 @@ body {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 3px;
-    color: #d6a76a;
+    color: #d64444;
     text-align: center;
 }
 /* 歌词区域 */
@@ -54,7 +54,7 @@ body {
 }
 audio {
     width: 100%;
-    accent-color: #d6a76a;
+    accent-color: #d64444;
 }
 /* 作者署名页脚 */
 .author-info {
@@ -63,5 +63,5 @@ audio {
     font-size: 14px;
 }
 .author-info strong {
-    color: #c49860;
+    color: #c43c3c;
 }
